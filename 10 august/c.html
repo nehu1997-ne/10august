@@ -1,0 +1,17 @@
+<html>
+    <head>
+        
+    </head>
+    <script>
+     var n = 5; // height of pattern
+var  value= "";
+// External loop
+for ( var  i = 1; i <= n; i++) {
+  for (var j = 1; j <= n - i + 1; j++) {
+    value += n - j - i + 2;
+  }
+  value += "\n";
+}
+console.log(value);
+    </script>
+</html>

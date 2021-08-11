@@ -1,0 +1,21 @@
+<html>
+<head>
+  <h1>b</h1>
+<script type="text/javascript">
+
+var n = 5; 
+var value = "";
+// External loop
+for (var i = 1; i <= n; i++) {
+  for (var j = 1; j <= n - i + 1; j++) {
+    value += n - j + 1;
+  }
+  value += "\n";
+}
+document.write(`<pre>${value}</pre>`);
+
+</script>
+</head>
+<body>
+</body>
+</html>
